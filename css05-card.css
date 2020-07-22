@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin: 30px auto;
+    width:300px;
+    height: 150px;
+    box-shadow: 0px 3px 10px 1px rgba(0 , 0, 0, 0.1);	
+}
+
+.card__up {
+    display: flex;
+}
+
+.card__up div {
+    margin: 15px;
+}
+
+.card__up img {
+    max-width: 100px;
+}
+
+.card__down {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    justify-content: space-between;
+    align-content: center ;
+}
+
+.card__down ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.card__down ul li{
+    list-style: none;
+}
+
+
+
+.card__down ul li img {
+    width: 15px;
+    margin: 5px;
+    animation: .1s;
+}
+
+.card__down ul li img:active{
+    background-image: url("https://image.flaticon.com/icons/svg/148/148841.svg") ;
+}
+
+button{
+	width: 80px;
+	height: 40px;
+	background-color: antiquewhite;
+	border: none;
+	font-size: 1.1em;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover{
+	box-shadow: 0px 3px 10px 1px rgba(0 , 0, 0, 0.1);
+}
